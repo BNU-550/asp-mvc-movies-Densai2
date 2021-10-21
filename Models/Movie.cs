@@ -12,7 +12,7 @@ namespace ASP_Razor_Movies.Models
     }
 
     /// <summary>
-    /// 
+    /// Gets and sets the information for movies.
     /// </summary>
     public class Movie
     {
@@ -28,5 +28,6 @@ namespace ASP_Razor_Movies.Models
         public Genres Genre { get; set; }
 
         public decimal Price { get; set; }
+
     }
 }
